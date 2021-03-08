@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a845eca-8bdb-49fd-973e-2a1455fa189c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ZeroaoDS/ProblemW1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1Problem.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="RainbowCSV.Settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PICHAU\Desktop\AnaliseDeDados\DataAnalysis\venv" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.ProblemaSemana1">
     <configuration name="ProblemW1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -61,6 +66,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ZeroaoDS/ProblemW1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -82,6 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/ProblemaSemana1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -106,8 +113,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611063858788</updated>
+      <workItem from="1615202235553" duration="1776000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -122,22 +133,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1590" height="280" key="GridCell.Tab.0.bottom" timestamp="1611065790781">
+    <state width="1590" height="280" key="GridCell.Tab.0.bottom" timestamp="1611066129427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1590" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611065790781" />
-    <state width="1590" height="280" key="GridCell.Tab.0.center" timestamp="1611065790781">
+    <state width="1590" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611066129427" />
+    <state width="1590" height="280" key="GridCell.Tab.0.center" timestamp="1611066129427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1590" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611065790781" />
-    <state width="1590" height="280" key="GridCell.Tab.0.left" timestamp="1611065790781">
+    <state width="1590" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611066129427" />
+    <state width="1590" height="280" key="GridCell.Tab.0.left" timestamp="1611066129427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1590" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611065790781" />
-    <state width="1590" height="280" key="GridCell.Tab.0.right" timestamp="1611065790781">
+    <state width="1590" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611066129427" />
+    <state width="1590" height="280" key="GridCell.Tab.0.right" timestamp="1611066129427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1590" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611065790781" />
+    <state width="1590" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611066129427" />
     <state x="922" y="165" key="SettingsEditor" timestamp="1611065339956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
