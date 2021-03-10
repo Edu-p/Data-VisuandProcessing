@@ -24,5 +24,8 @@ dataset = pd.read_csv( 'datasets/kc_house_data.csv' )
 
 # 6 pergunta
 
-print( dataset['bedrooms'].sum())
+#print( dataset['bedrooms'].sum() )
 
+# 7 pergunta
+
+print(dataset.sum())
