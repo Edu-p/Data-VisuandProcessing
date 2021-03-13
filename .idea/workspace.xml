@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a845eca-8bdb-49fd-973e-2a1455fa189c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NotasNotionMarkdown/gab_ex1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercicio_Sem1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio_Sem1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotasNotionMarkdown/gab_ex1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NotasNotionMarkdown/gab_ex1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,6 +189,7 @@
       <workItem from="1615218018024" duration="282000" />
       <workItem from="1615291837794" duration="6015000" />
       <workItem from="1615396471938" duration="3465000" />
+      <workItem from="1615631075064" duration="614000" />
     </task>
     <servers />
   </component>

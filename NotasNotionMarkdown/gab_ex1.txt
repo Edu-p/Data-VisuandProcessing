@@ -5,14 +5,14 @@ Essas são as respostas finais com os códigos:
 
 #1. Quantas casas estão disponíveis para compra?
 # R: 21613
-print( df1.shape[0] )
+print( df1.shape[0] ) ver quantas rows tem
 
 #2. Quantos atributos as casas possuem?
 # R: 21
-print( df1.shape[1] )
+print( df1.shape[1] )  ver quantas colunas tem
 
 #3. Quais são os atributos das casas?
-print( df1.columns )
+print( df1.columns ) listar colunas
 
 #4. Qual a casa mais cara ( casa com o maior valor de venda )?
 # R: O imóvel com o id 6762700020 é o mais caro
