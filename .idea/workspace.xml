@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a845eca-8bdb-49fd-973e-2a1455fa189c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/notas_aula2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercicio_sem2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio_sem2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notas_aula2.py" beforeDir="false" afterPath="$PROJECT_DIR$/notas_aula2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +191,7 @@
       <workItem from="1615291837794" duration="6015000" />
       <workItem from="1615396471938" duration="3465000" />
       <workItem from="1615631075064" duration="4457000" />
-      <workItem from="1615805462503" duration="1007000" />
+      <workItem from="1615805462503" duration="1988000" />
     </task>
     <servers />
   </component>
@@ -213,6 +212,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ex_01_py$Exercicio_Sem1.coverage" NAME="Exercicio_Sem1 Coverage Results" MODIFIED="1615632253415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ex_01_py$notas_aula2.coverage" NAME="notas_aula2 Coverage Results" MODIFIED="1615807623966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ex_01_py$ex_01.coverage" NAME="ex_01 Coverage Results" MODIFIED="1615303860110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ex_01_py$Exercicio_sem2.coverage" NAME="Exercicio_sem2 Coverage Results" MODIFIED="1615647224889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
