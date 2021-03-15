@@ -46,8 +46,15 @@ print(dataF[['price','id','date']].head(2) )
 ## Forma 2:
 
 #os dados sao dispostos da seguinte forma no pandas
+# DADOS[linhas, colunas]
+# o operador ':' se lê como ate, 0:3 de zero ate 3
 
+#print(dataF[0:10,0:3]) isso aq da erro pq o pandas nao sabe o numero das colunas, temos que usar a funçao iloc
 
+print(dataF.iloc[0:2,0:3])
 
+#dataF.iloc[:,:]=> selecioando todas as linhas e colunas do dataset
+
+## Forma 3:
 
 
