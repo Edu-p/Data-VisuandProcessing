@@ -46,8 +46,8 @@ dataF['bedrooms'] = dataF['bedrooms'].astype( int64 )
 
 dataF['data'] = pd.to_datetime(dataF['date'])
 
-print( dataF.dtypes )
 
+print( dataF.dtypes )
 print( dataF[['id','bedrooms']].head(22) )
 
 
