@@ -20,6 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a845eca-8bdb-49fd-973e-2a1455fa189c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicio_sem2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio_sem2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notas_aula2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/notas_aula2.1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notas_aula2.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/notas_aula2.2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +59,7 @@
       <recent name="C:\Users\PICHAU\Desktop\AnaliseDeDados\DataAnalysis\venv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.notas_aula2.2">
+  <component name="RunManager" selected="Python.Exercicio_sem2">
     <configuration name="Exercicio_Sem1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,9 +172,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Exercicio_sem2" />
         <item itemvalue="Python.notas_aula2.2" />
         <item itemvalue="Python.notas_aula2.1" />
-        <item itemvalue="Python.Exercicio_sem2" />
         <item itemvalue="Python.Exercicio_Sem1" />
         <item itemvalue="Python.ex_01" />
       </list>
@@ -191,7 +194,7 @@
       <workItem from="1615396471938" duration="3465000" />
       <workItem from="1615631075064" duration="4457000" />
       <workItem from="1615805462503" duration="5546000" />
-      <workItem from="1615890946387" duration="1234000" />
+      <workItem from="1615890946387" duration="2885000" />
     </task>
     <servers />
   </component>
@@ -214,7 +217,7 @@
     <SUITE FILE_PATH="coverage/ex_01_py$Exercicio_Sem1.coverage" NAME="Exercicio_Sem1 Coverage Results" MODIFIED="1615632253415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ex_01_py$notas_aula2.coverage" NAME="notas_aula2.1 Coverage Results" MODIFIED="1615809350356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ex_01_py$ex_01.coverage" NAME="ex_01 Coverage Results" MODIFIED="1615303860110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ex_01_py$Exercicio_sem2.coverage" NAME="Exercicio_sem2 Coverage Results" MODIFIED="1615647224889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ex_01_py$notas_aula2_2.coverage" NAME="notas_aula2.2 Coverage Results" MODIFIED="1615892318952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ex_01_py$notas_aula2_2.coverage" NAME="notas_aula2.2 Coverage Results" MODIFIED="1615892703913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ex_01_py$Exercicio_sem2.coverage" NAME="Exercicio_sem2 Coverage Results" MODIFIED="1615893559244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
