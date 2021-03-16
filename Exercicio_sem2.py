@@ -63,3 +63,4 @@ mapa_gerado.update_layout( mapbox_style = 'open-street-map' )
 mapa_gerado.update_layout( height=1000,margin = {'r':0,'t':0,'l':0,'b':0})
 mapa_gerado.show()
 
+mapa_gerado.write_html('datasets/mapa_casas_house_rocket.html')
