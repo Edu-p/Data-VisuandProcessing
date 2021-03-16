@@ -3,7 +3,7 @@ import pandas as pd
 
 #ler o arquivo .csv
 
-data = pd.read_csv( 'datasets/kc_house_data.csv' )
+data = pd.read_csv('../datasets/kc_house_data.csv')
 
 #mostre as linhas primeiras linhas do conj de dados
 

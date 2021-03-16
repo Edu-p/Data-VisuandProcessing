@@ -1,7 +1,7 @@
 import pandas as pd
 from numpy import int64
 
-dataF = pd.read_csv('datasets/kc_house_data.csv')
+dataF = pd.read_csv('../datasets/kc_house_data.csv')
 
 # mostrar tipos de variaveis de cada coluna
 

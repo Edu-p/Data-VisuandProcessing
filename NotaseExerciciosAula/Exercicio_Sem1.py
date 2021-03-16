@@ -1,6 +1,6 @@
 import pandas as pd
 
-dataF = pd.read_csv('datasets/kc_house_data.csv')
+dataF = pd.read_csv('../datasets/kc_house_data.csv')
 
 #1. Quantas casas estão disponíveis para compra?
 
