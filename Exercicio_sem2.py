@@ -49,7 +49,17 @@ dataF.loc[dataF['price'] <= 540000,'level'] = 'low_level'
 
 # Scatter MapBox - funçao da Plotly que desenha mapa
 
-scatter_mapbox
+import plotly.express as px
 
+data_map = dataF[['id','lat','long','price']]
 
+mapa_gerado = px.scatter_mapbox(data_map, lat='lat',
+               lon='long', hover_name='id',
+               hover_data=['price'],
+               color_discrete_sequence=['fuchsia'],
+               zoom=3,height=300)
+
+mapa_gerado.update_layout( mapbox_style = 'open-street-map' )
+mapa_gerado.update_layout( height=1000,margin = {'r':0,'t':0,'l':0,'b':0})
+mapa_gerado.show()
 
