@@ -46,10 +46,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NotasNotionMarkdown" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PICHAU\Desktop\AnaliseDeDados\DataAnalysis\NotasNotionMarkdown" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PICHAU\Desktop\AnaliseDeDados\DataAnalysis\NotaseExerciciosAula" />
       <recent name="C:\Users\PICHAU\Desktop\AnaliseDeDados\DataAnalysis\venv" />
@@ -190,7 +193,7 @@
       <workItem from="1615396471938" duration="3465000" />
       <workItem from="1615631075064" duration="4457000" />
       <workItem from="1615805462503" duration="5546000" />
-      <workItem from="1615890946387" duration="8441000" />
+      <workItem from="1615890946387" duration="9329000" />
     </task>
     <servers />
   </component>
