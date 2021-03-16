@@ -38,8 +38,18 @@ dataF.loc[dataF['price'] <= 540000,'level'] = 'low_level'
 #     5. preço
 #     6. classficacao do imovel(alto e baixo padrao)
 
-report_to_CEO = dataF[['id','date','bedrooms','sqft_lot','price','level']].sort_values('price',ascending=False)
-
-report_to_CEO.to_csv( 'datasets/report_aula2.csv', index=False ) # o index false é para quando salvar no csv ele resetar os indices que mexemos na ordenaçao do ascending acima
+# report_to_CEO = dataF[['id','date','bedrooms','sqft_lot','price','level']].sort_values('price',ascending=False)
+#
+# report_to_CEO.to_csv( 'datasets/report_aula2.csv', index=False ) # o index false é para quando salvar no csv ele resetar os indices que mexemos na ordenaçao do ascending acima
 
 #     7. Mapa indicando onde as casas tao localizadas geograficamente
+
+# vamos usar o Plotly mas podemos usar outras bibliotecas pela internet como mathplotlib,Folium, entre outras
+# mais tarde em outras analises vamos usar elas, mas por agora essa serve
+
+# Scatter MapBox - funçao da Plotly que desenha mapa
+
+scatter_mapbox
+
+
+
