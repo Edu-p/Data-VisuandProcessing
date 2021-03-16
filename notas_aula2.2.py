@@ -41,7 +41,9 @@ dataF = pd.read_csv('datasets/kc_house_data.csv')
 
 ## Forma 1: Direto pelos nomes das colunas
 
-print(dataF[['price','id','date']].head(2) )
+# print(dataF[['price','id','date']].head(2) )
+
+
 
 ## Forma 2: Pelos indices das linhas e colunas
 
@@ -55,10 +57,24 @@ print(dataF[['price','id','date']].head(2) )
 
 #dataF.iloc[:,:]=> selecioando todas as linhas e colunas do dataset
 
+
+
+
 ## Forma 3:Pelos indices das linhas e nome das colunas
 
-print( dataF.loc[0:10,'price'] )
+# print( dataF.loc[0:10,['price','id']] )
+
 #aqui é loc pq agora estamos usando o nome da coluna para localizar o compilador entao usamos
 #loc() so nao o iloc()
+
+
+
+
+## Forma 4: Indices booleanos
+
+cols = [True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False]
+#esses true ou false sao por causa do numeor de colunas do dataset
+print( dataF.loc[0:10,cols] )
+
 
 
