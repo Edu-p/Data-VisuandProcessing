@@ -22,12 +22,12 @@ dataF['date'] = pd.to_datetime(dataF['date'])
 
 # 3. Criar uma classificaçao para os imoveis, separando-os em alto e baixo padrao, se acordo om o preço(acima de 540.000 é alto padrao)
 
-dataF['level'] = 'standard'
-
+# dataF['level'] = 'standard'
+#
 dataF.loc[dataF['price'] > 540000,'level'] = 'high_level' # usando loc pq estou dando o nome especifico de uma coluna
 dataF.loc[dataF['price'] <= 540000,'level'] = 'low_level'
-
-print(dataF[['id','price','level']].head(10))
+#
+# print(dataF[['id','price','level']].head(10))
 
 
 # 4. Relatorio ordenado pelo preço e contendo as seguintes informaçoes:
@@ -37,4 +37,9 @@ print(dataF[['id','price','level']].head(10))
 #     4. tamanho total do terreno
 #     5. preço
 #     6. classficacao do imovel(alto e baixo padrao)
+
+report_to_CEO = dataF[['id','date','bedrooms','sqft_lot','price','level']].sort_values('price',ascending=False)
+
+report_to_CEO.to_csv( 'datasets/report_aula2.csv', index=False ) # o index false é para quando salvar no csv ele resetar os indices que mexemos na ordenaçao do ascending acima
+
 #     7. Mapa indicando onde as casas tao localizadas geograficamente
