@@ -6,11 +6,13 @@ dataF = pd.read_csv('datasets/kc_house_data.csv')
 
 dataF['date'] = pd.to_datetime(dataF['date'])
 
-print( dataF[['id','date','price']].sort_values('date',ascending=1).head(1) )
+#print( dataF[['id','date','price']].sort_values('date',ascending=1).head(1) )
 
 # 2. Quantos imoveis possuem o maximo de andares
 
+print(dataF['floors'].unique()) # o .unique pega todos os diferentes valores naquela coluna e os lista
 
+print( dataF[['id','price','floors']][dataF['floors'] == 3.5].head(5) )
 
 # 3. Criar uma classificaçao para os imoveis, separando-os em alto e baixo padrao, se acordo om o preço(acima de 540.000 é alto padrao)
 # 4. Relatorio ordenado pelo preço e contendo as seguintes informaçoes:
