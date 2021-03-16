@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a845eca-8bdb-49fd-973e-2a1455fa189c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Exercicio_sem2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio_sem2.py" afterDir="false" />
-    </list>
+    <list default="true" id="6a845eca-8bdb-49fd-973e-2a1455fa189c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,7 +189,7 @@
       <workItem from="1615396471938" duration="3465000" />
       <workItem from="1615631075064" duration="4457000" />
       <workItem from="1615805462503" duration="5546000" />
-      <workItem from="1615890946387" duration="8064000" />
+      <workItem from="1615890946387" duration="8441000" />
     </task>
     <servers />
   </component>
