@@ -24,4 +24,14 @@ dataAtv2.loc[dataAtv2['bedrooms'] == 1, 'dormitory_type'] = 'studio'
 dataAtv2.loc[dataAtv2['bedrooms'] == 2, 'dormitory_type'] = 'apartament'
 dataAtv2.loc[dataAtv2['bedrooms'] > 2, 'dormitory_type'] = 'house'
 
-#print(dataAtv2[['price','dormitory_type']].head(30))
+#print(dataAtv2[['price','dormitory_type']][dataAtv2['bedrooms'] == 1].head(30))
+
+# Pergunta 3
+
+dataAtv2['condition_type'] = 'standard'
+
+dataAtv2.loc[dataAtv2['condition'] <= 2, 'condition_type'] = 'bad'
+dataAtv2.loc[(dataAtv2['condition'] == 3) | (dataAtv2['condition'] == 4), 'condition_type'] = 'regular'
+dataAtv2.loc[dataAtv2['condition'] == 5, 'condition_type'] = 'good'
+
+#print(dataAtv2[['price','condition_type','condition']][dataAtv2['condition_type'] == 'bad'].head(30))
