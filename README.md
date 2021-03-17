@@ -19,4 +19,5 @@ O CEO da empresa fictícia House Rocket, plataforma de compra e venda de imóvei
 
 # 🖱️Considerações
 
-Estou utilizando do [Pycharm](https://www.jetbrains.com/pt-br/pycharm/) como IDE e o [Python 3.8](https://www.python.org/downloads/release/python-380/) como interpretador
+- Estou utilizando do [Pycharm](https://www.jetbrains.com/pt-br/pycharm/) como IDE e o [Python 3.8](https://www.python.org/downloads/release/python-380/) como interpretador
+- Na Pasta 'NotasNotionMarkdown'  tem um .pdf atualizado com todas as notas realizadas por mim durante o curso
