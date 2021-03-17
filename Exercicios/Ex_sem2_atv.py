@@ -35,3 +35,9 @@ dataAtv2.loc[(dataAtv2['condition'] == 3) | (dataAtv2['condition'] == 4), 'condi
 dataAtv2.loc[dataAtv2['condition'] == 5, 'condition_type'] = 'good'
 
 #print(dataAtv2[['price','condition_type','condition']][dataAtv2['condition_type'] == 'bad'].head(30))
+
+# Pergunta 4
+
+dataAtv2['condition'] = dataAtv2['condition'].astype( str )
+
+#print(dataAtv2.dtypes)
