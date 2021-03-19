@@ -82,8 +82,11 @@ dataAtv2['yr_renovated'] = pd.to_datetime(dataAtv2['yr_renovated'])
 
 #print(dataAtv2.columns)
 
-print( dataAtv2[['condition_type']][(dataAtv2['condition_type'] == 'bad') & (dataAtv2['view'] == 1)].shape )
+#print( dataAtv2[['condition_type']][(dataAtv2['condition_type'] == 'bad') & (dataAtv2['view'] == 1)].shape )
 
+# Pergunta 13
+
+print( dataAtv2[['condition_type']][(dataAtv2['condition_type'] == 'good') & (dataAtv2['house_age'] == 'new_house')].shape )
 
 
 
