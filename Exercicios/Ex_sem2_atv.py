@@ -60,7 +60,14 @@ dataAtv2['yr_built'] = pd.to_datetime(dataAtv2['yr_built'])
 
 dataAtv2['yr_renovated'] = pd.to_datetime(dataAtv2['yr_renovated'])
 
-print(dataAtv2.dtypes)
+#print(dataAtv2.dtypes)
+
+# Pergunta 8
+
+print( dataAtv2[['yr_built']].sort_values('yr_built').min() )
+
+
+
 
 
 
