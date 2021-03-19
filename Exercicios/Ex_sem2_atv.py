@@ -94,12 +94,16 @@ dataAtv2['yr_built'] = pd.to_datetime(dataAtv2['yr_built'])
 
 # Pergunta 15
 
-#print( dataAtv2[['dormitory_type','yr_renovated']][(dataAtv2['dormitory_type'] == 'apartment') & (dataAtv2['yr_renovated'] == 2015)] )
+#print( dataAtv2[['dormitory_type','yr_renovated']][(dataAtv2['dormitory_type'] == 'apartment') & (dataAtv2['yr_renovated'] == 2014)] )
 
 #print( dataAtv2[['dormitory_type','yr_renovated']][(dataAtv2['dormitory_type'] == 'apartment') & (dataAtv2['yr_renovated'] == 1984)] )
 
 # Pergunta 16
 
-print( dataAtv2[['bedrooms','dormitory_type','price']][(dataAtv2['dormitory_type'] == 'house')].sort_values('bedrooms',ascending=False).head(1) )
+#print( dataAtv2[['bedrooms','dormitory_type','price']][(dataAtv2['dormitory_type'] == 'house')].sort_values('bedrooms',ascending=False).head(1) )
+
+# Pergunta 17
+
+print( dataAtv2[['house_age','yr_renovated']][(dataAtv2['house_age'] == 'new_house') & (dataAtv2['yr_renovated'] == 2014)].shape )
 
 
