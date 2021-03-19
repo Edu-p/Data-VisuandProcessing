@@ -48,9 +48,13 @@ cols = ['sqft_living15','sqft_lot15']
 
 dataAtv2 = dataAtv2.drop(cols,axis=1)
 
-print(dataAtv2.columns)
+#print(dataAtv2.columns)
 
+# Pergunta 6
 
+dataAtv2['yr_built'] = pd.to_datetime(dataAtv2['yr_built'])
+
+print(dataAtv2.dtypes)
 
 
 
