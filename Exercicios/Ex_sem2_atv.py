@@ -21,7 +21,7 @@ dataAtv2.loc[dataAtv2['date'] < diaD, 'house_age'] = 'old_house'
 dataAtv2['dormitory_type'] = 'standard'
 
 dataAtv2.loc[dataAtv2['bedrooms'] == 1, 'dormitory_type'] = 'studio'
-dataAtv2.loc[dataAtv2['bedrooms'] == 2, 'dormitory_type'] = 'apartament'
+dataAtv2.loc[dataAtv2['bedrooms'] == 2, 'dormitory_type'] = 'apartment'
 dataAtv2.loc[dataAtv2['bedrooms'] > 2, 'dormitory_type'] = 'house'
 
 #print(dataAtv2[['price','dormitory_type']][dataAtv2['bedrooms'] == 1].head(30))
@@ -58,7 +58,7 @@ dataAtv2['yr_built'] = pd.to_datetime(dataAtv2['yr_built'])
 
 # Pergunta 7
 
-dataAtv2['yr_renovated'] = pd.to_datetime(dataAtv2['yr_renovated'])
+#dataAtv2['yr_renovated'] = pd.to_datetime(dataAtv2['yr_renovated'])
 
 #print(dataAtv2.dtypes)
 
@@ -90,7 +90,13 @@ dataAtv2['yr_renovated'] = pd.to_datetime(dataAtv2['yr_renovated'])
 
 # Pergunta 14
 
-print( dataAtv2[['dormitory_type','price']][dataAtv2['dormitory_type'] == 'studio'].sort_values('price').max() )
+#print( dataAtv2[['dormitory_type','price']][dataAtv2['dormitory_type'] == 'studio'].sort_values('price').max() )
+
+# Pergunta 15
+
+print( dataAtv2[['dormitory_type','yr_renovated']][(dataAtv2['dormitory_type'] == 'apartment') & (dataAtv2['yr_renovated'] == 2015)] )
+
+#print( dataAtv2[['dormitory_type','yr_renovated']][(dataAtv2['dormitory_type'] == 'apartment') & (dataAtv2['yr_renovated'] == 1984)] )
 
 
 
