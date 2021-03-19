@@ -86,12 +86,11 @@ dataAtv2['yr_renovated'] = pd.to_datetime(dataAtv2['yr_renovated'])
 
 # Pergunta 13
 
-print( dataAtv2[['condition_type']][(dataAtv2['condition_type'] == 'good') & (dataAtv2['house_age'] == 'new_house')].shape )
+#print( dataAtv2[['condition_type']][(dataAtv2['condition_type'] == 'good') & (dataAtv2['house_age'] == 'new_house')].shape )
 
+# Pergunta 14
 
-
-
-
+print( dataAtv2[['dormitory_type','price']][dataAtv2['dormitory_type'] == 'studio'].sort_values('price').max() )
 
 
 
