@@ -54,9 +54,13 @@ dataAtv2 = dataAtv2.drop(cols,axis=1)
 
 dataAtv2['yr_built'] = pd.to_datetime(dataAtv2['yr_built'])
 
+#print(dataAtv2.dtypes)
+
+# Pergunta 7
+
+dataAtv2['yr_renovated'] = pd.to_datetime(dataAtv2['yr_renovated'])
+
 print(dataAtv2.dtypes)
-
-
 
 
 
