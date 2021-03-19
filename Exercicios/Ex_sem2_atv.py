@@ -114,25 +114,16 @@ dataAtv2['yr_built'] = pd.to_datetime(dataAtv2['yr_built'])
 
 ## Forma 2: Pelos indices das linhas e colunas
 
-#os dados sao dispostos da seguinte forma no pandas
-# DADOS[linhas, colunas]
-# o operador ':' se lê como ate, 0:3 de zero ate 3
-
-#print(dataF[0:10,0:3]) isso aq da erro pq o pandas nao sabe o numero das colunas, temos que usar a funçao iloc
-
 #print(dataAtv2.iloc[0:2,0:3])
 
 ## Forma 3:Pelos indices das linhas e nome das colunas
 
 #print( dataAtv2.loc[0:10,['id','date','price','floors','zipcode']] )
 
-#aqui é loc pq agora estamos usando o nome da coluna para localizar o compilador entao usamos
-#loc() so nao o iloc()
-
 ## Forma 4: Indices booleanos(o mais importante)
 
-cols = [True,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False]
-#esses true ou false sao por causa do numeor de colunas do dataset
-print( dataAtv2.loc[0:10,cols] )
+# cols = [True,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False,False]
+#
+# print( dataAtv2.loc[0:10,cols] )
 
 
