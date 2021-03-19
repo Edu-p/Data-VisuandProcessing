@@ -41,3 +41,24 @@ dataAtv2.loc[dataAtv2['condition'] == 5, 'condition_type'] = 'good'
 dataAtv2['condition'] = dataAtv2['condition'].astype( str )
 
 #print(dataAtv2.dtypes)
+
+# Pergunta 5
+
+cols = ['sqft_living15','sqft_lot15']
+
+dataAtv2 = dataAtv2.drop(cols,axis=1)
+
+print(dataAtv2.columns)
+
+
+
+
+
+
+
+
+
+
+
+
+

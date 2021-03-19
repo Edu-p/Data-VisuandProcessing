@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a845eca-8bdb-49fd-973e-2a1455fa189c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercicios/Ex_sem2_atv.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios/Ex_sem2_atv.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,6 +198,7 @@
       <workItem from="1615805462503" duration="5546000" />
       <workItem from="1615890946387" duration="9329000" />
       <workItem from="1615974236175" duration="9566000" />
+      <workItem from="1616146063919" duration="936000" />
     </task>
     <servers />
   </component>
@@ -216,7 +218,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ex_01_py$Ex_sem2_atv.coverage" NAME="Ex_sem2_atv Coverage Results" MODIFIED="1615992038261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercicios" />
+    <SUITE FILE_PATH="coverage/ex_01_py$Ex_sem2_atv.coverage" NAME="Ex_sem2_atv Coverage Results" MODIFIED="1616147895556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exercicios" />
     <SUITE FILE_PATH="coverage/ex_01_py$Exercicio_Sem1.coverage" NAME="Exercicio_Sem1 Coverage Results" MODIFIED="1615632253415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ex_01_py$Exercicio_sem2__1_.coverage" NAME="Exercicio_sem2 (1) Coverage Results" MODIFIED="1615991262856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NotaseExerciciosAula" />
     <SUITE FILE_PATH="coverage/ex_01_py$notas_aula2.coverage" NAME="notas_aula2.1 Coverage Results" MODIFIED="1615809350356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
