@@ -76,9 +76,13 @@ dataAtv2['yr_renovated'] = pd.to_datetime(dataAtv2['yr_renovated'])
 
 # Pergunta 11
 
-print( dataAtv2[['condition_type']][dataAtv2['condition_type'] == 'regular'].shape )
+#print( dataAtv2[['condition_type']][dataAtv2['condition_type'] == 'regular'].shape )
 
+# Pergunta 12
 
+#print(dataAtv2.columns)
+
+print( dataAtv2[['condition_type']][(dataAtv2['condition_type'] == 'bad') & (dataAtv2['view'] == 1)].shape )
 
 
 
