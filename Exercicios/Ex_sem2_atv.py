@@ -120,6 +120,13 @@ dataAtv2['yr_built'] = pd.to_datetime(dataAtv2['yr_built'])
 
 #print(dataF[0:10,0:3]) isso aq da erro pq o pandas nao sabe o numero das colunas, temos que usar a funçao iloc
 
-print(dataAtv2.iloc[0:2,0:5])
+#print(dataAtv2.iloc[0:2,0:3])
+
+## Forma 3:Pelos indices das linhas e nome das colunas
+
+print( dataAtv2.loc[0:10,['id','date','price','floors','zipcode']] )
+
+#aqui é loc pq agora estamos usando o nome da coluna para localizar o compilador entao usamos
+#loc() so nao o iloc()
 
 
