@@ -126,4 +126,9 @@ dataAtv2['yr_built'] = pd.to_datetime(dataAtv2['yr_built'])
 #
 # print( dataAtv2.loc[0:10,cols] )
 
+# Pergunta 19
+
+# perguntaSelecionar = dataAtv2[['id','date','price','floors','zipcode']]
+# # print(perguntaSelecionar)
+# perguntaSelecionar.to_csv( 'datasets/colunasSeleciondasSem2.csv' )
 
