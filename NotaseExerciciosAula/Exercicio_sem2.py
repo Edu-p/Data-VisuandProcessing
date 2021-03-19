@@ -56,7 +56,7 @@ data_map = dataF[['id','lat','long','price']]
 mapa_gerado = px.scatter_mapbox(data_map, lat='lat',
                lon='long', hover_name='id',
                hover_data=['price'],
-               color_discrete_sequence=['fuchsia'],
+               color_discrete_sequence=['darkgreen'],
                zoom=3,height=300)
 
 mapa_gerado.update_layout( mapbox_style = 'open-street-map' )
