@@ -104,6 +104,10 @@ dataAtv2['yr_built'] = pd.to_datetime(dataAtv2['yr_built'])
 
 # Pergunta 17
 
-print( dataAtv2[['house_age','yr_renovated']][(dataAtv2['house_age'] == 'new_house') & (dataAtv2['yr_renovated'] == 2014)].shape )
+#print( dataAtv2[['house_age','yr_renovated']][(dataAtv2['house_age'] == 'new_house') & (dataAtv2['yr_renovated'] == 2014)].shape )
 
+# Pergunta 18
 
+## Forma 1: Direto pelos nomes das colunas
+
+print(dataAtv2[['id','date','price','floors','zipcode']].head(2) )
