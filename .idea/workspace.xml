@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a845eca-8bdb-49fd-973e-2a1455fa189c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotebooksAnotacoes/Anotaçao_aula_3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NotebooksAnotacoes/Anotaçao_aula_3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotebooksExercicios/Exercicios_aula3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NotebooksExercicios/Exercicios_aula3.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +204,7 @@
       <workItem from="1616178349274" duration="1022000" />
       <workItem from="1616269861158" duration="868000" />
       <workItem from="1616319574232" duration="3248000" />
-      <workItem from="1616416671185" duration="978000" />
+      <workItem from="1616416671185" duration="1322000" />
     </task>
     <servers />
   </component>
