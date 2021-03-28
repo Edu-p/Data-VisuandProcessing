@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a845eca-8bdb-49fd-973e-2a1455fa189c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/NotebooksExercicios/Exercicios_aula3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NotebooksExercicios/Exercicios_aula3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotebooksExercicios/Exercicios_aula4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NotebooksExercicios/Exercicios_aula4.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -51,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NotasNotionMarkdown" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TesteMacro.ipynb" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -205,6 +208,9 @@
       <workItem from="1616269861158" duration="868000" />
       <workItem from="1616319574232" duration="3248000" />
       <workItem from="1616416671185" duration="1322000" />
+      <workItem from="1616784136028" duration="583000" />
+      <workItem from="1616864380598" duration="1279000" />
+      <workItem from="1616922833700" duration="2971000" />
     </task>
     <servers />
   </component>
