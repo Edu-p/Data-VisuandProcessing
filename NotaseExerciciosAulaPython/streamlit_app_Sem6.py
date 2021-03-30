@@ -27,17 +27,20 @@ if( ( f_zipcode!= [] ) & ( f_attributes != [] )):
     data = data.loc[ data['zipcode'].isin( f_zipcode ), f_attributes ] # apareer o que foi selecionado, so se ele selecionou
 
 elif(  ( f_zipcode!= [] ) & ( f_attributes == [] ) ):
-    data = data.loc[data['zipcode'].isin(f_zipcode), :]
+    data = data.loc[ data['zipcode'].isin(f_zipcode), : ]
 
 elif(  ( f_zipcode== [] ) & ( f_attributes != [] ) ):
-    data = data.loc[:, f_attributes]
+    data = data.loc[ :, f_attributes ]
 else:
     data = data.copy()
 
-# st.write( f_attributes )
-# st.write( f_zipcode )
-
-
 st.write( data.head(7) )
 
+# Avarage metrics
 
+df1 = data[['id','zipcode']].groupby( 'zipcode' ).count().reset_index()
+df2 = data[['price','zipcode']].groupby( 'zipcode' ).mean().reset_index()
+df3 = data[['sqft_living','zipcode']].groupby( 'zipcode' ).mean().reset_index()
+df4 = data[['price_m2','zipcode']].groupby( 'zipcode' ).mean().reset_index()
+
+# merge
