@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6a845eca-8bdb-49fd-973e-2a1455fa189c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotebooksAnotacoes/Anotacoes_aula_5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NotebooksAnotacoes/Anotacoes_aula_5.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house_rocket_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/NotaseExerciciosAulaPython/house_rocket_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +58,12 @@
       <recent name="C:\Users\PICHAU\Desktop\AnaliseDeDados\DataAnalysis\NotasNotionMarkdown" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PICHAU\Desktop\AnaliseDeDados\DataAnalysis\NotaseExerciciosAulaPython" />
       <recent name="C:\Users\PICHAU\Desktop\AnaliseDeDados\DataAnalysis\NotaseExerciciosAula" />
       <recent name="C:\Users\PICHAU\Desktop\AnaliseDeDados\DataAnalysis\venv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Exercicio_sem2 (1)">
+  <component name="RunManager" selected="Python.streamlit_app_Sem6">
     <configuration name="Ex_sem2_atv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,28 +130,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="notas_aula2.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DataAnalysis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\PICHAU\Desktop\AnaliseDeDados\DataAnalysis\NotaseExerciciosAula\notas_aula2.1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="notas_aula2.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,13 +152,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="streamlit_app_Sem6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DataAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NotaseExerciciosAulaPython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NotaseExerciciosAulaPython/streamlit_app_Sem6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.streamlit_app_Sem6" />
         <item itemvalue="Python.Exercicio_sem2 (1)" />
         <item itemvalue="Python.Ex_sem2_atv" />
         <item itemvalue="Python.Exercicio_sem2" />
         <item itemvalue="Python.notas_aula2.2" />
-        <item itemvalue="Python.notas_aula2.1" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +209,8 @@
       <workItem from="1616864380598" duration="1279000" />
       <workItem from="1616922833700" duration="7188000" />
       <workItem from="1617039578833" duration="2340000" />
-      <workItem from="1617088511716" duration="4146000" />
+      <workItem from="1617088511716" duration="5232000" />
+      <workItem from="1617126577048" duration="3525000" />
     </task>
     <servers />
   </component>
@@ -233,6 +235,7 @@
     <SUITE FILE_PATH="coverage/ex_01_py$Exercicio_sem2__1_.coverage" NAME="Exercicio_sem2 (1) Coverage Results" MODIFIED="1616270473036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NotaseExerciciosAula" />
     <SUITE FILE_PATH="coverage/ex_01_py$notas_aula2.coverage" NAME="notas_aula2.1 Coverage Results" MODIFIED="1615809350356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ex_01_py$ex_01.coverage" NAME="ex_01 Coverage Results" MODIFIED="1615303860110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ex_01_py$streamlit_app_Sem6.coverage" NAME="streamlit_app_Sem6 Coverage Results" MODIFIED="1617129345029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NotaseExerciciosAulaPython" />
     <SUITE FILE_PATH="coverage/ex_01_py$notas_aula2_2.coverage" NAME="notas_aula2.2 Coverage Results" MODIFIED="1615892703913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ex_01_py$Exercicio_sem2.coverage" NAME="Exercicio_sem2 Coverage Results" MODIFIED="1615901131669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

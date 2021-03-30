@@ -17,7 +17,7 @@ def get_data( path ):
     return data
 
 # load data
-data = get_data( 'datasets\kc_house_data.csv' )
+data = get_data('../datasets/kc_house_data.csv')
 
 # filter bedrooms
 
