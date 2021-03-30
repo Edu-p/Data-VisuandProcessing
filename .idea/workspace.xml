@@ -31,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -208,7 +208,7 @@
       <workItem from="1616864380598" duration="1279000" />
       <workItem from="1616922833700" duration="7188000" />
       <workItem from="1617039578833" duration="2340000" />
-      <workItem from="1617088511716" duration="1663000" />
+      <workItem from="1617088511716" duration="4146000" />
     </task>
     <servers />
   </component>
