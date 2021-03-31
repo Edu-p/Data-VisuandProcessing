@@ -17,6 +17,9 @@ def get_data( path ):
 path = '../datasets/kc_house_data.csv'
 data = get_data( path )
 
+#get geofile
+url = 'https://opendata.arcgis.com/datasets/83fc2e72903343aabff6de8cb445b81c_2.geojson'
+
 # add new features
 data['price_m2'] = data['price'] / (data['sqft_lot']/10.764)
 
@@ -111,5 +114,24 @@ for name, row in df.iterrows(): # deixar meu dataframe interativo, row cada linh
 
 with c1:
     folium_static( density_map )
+
+
+#===================
+# Region Price Map ( MarkerCluster its a good type of map to show density )
+#===================
+c2.header( 'Price Density' )
+
+df = data[['price','zipcode']].groupby( 'zipcode' ).mean().reset_index()
+df.columns = ['ZIP','PRICE']
+
+df = df.sample(100)
+
+region_price_map = folium.Map( location=[data['lat'].mean(), data['long'].mean()] )
+
+region_price_map.choropleth( data = df,
+                             geo_data = geofile, # jeito que o mapa vai ser mapeado, onde vao ficar as divisoes das regioes( por exemplo o mapa de cidade que é dividido pelas suas fronteiras ), esse arquivo geofile é justamente que vai dizer qual o lat e long dessas demarcaçoes para formar as regioes
+                             columns=['ZIP', 'PRICE'])
+
+
 
 
