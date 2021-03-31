@@ -1,6 +1,10 @@
 import pandas    as pd
 import streamlit as st
 import numpy     as np
+import folium
+
+from streamlit_folium import folium_static
+from folium.plugins import MarkerCluster
 
 st.set_page_config( layout='wide' ) # para que nossos elementos tenham a maxima largura possivel
 @st.cache( allow_output_mutation=True ) #o '@' a gente chama de decorador e esse st.cache serve para nos lermos o arquivo direto da memoria e nao do disco,, no caso o dataset abaixo, o allow_.... é para que esse dataset possa mudar ao longo do codigo, isso agiliza a manipulaçao desse dataset
@@ -82,6 +86,30 @@ c2.header( 'Descriptive analysis' )
 c2.dataframe(df8, height=600)
 
 
+#===================
+# Portfolio Density( MarkerCluster its a good type of map to show density )
+#===================
 
+st.title( 'Region Overview' )
+c1, c2 = st.beta_columns( (1, 1) )
+
+c1.header( 'Portfolio Density' )
+
+df = data.sample( 15 ) # pegar uma amostra
+
+# Base Map - Folium( map lib )
+density_map = folium.Map( location=[data['lat'].mean(), data['long'].mean()] )
+
+maker_cluster = MarkerCluster().add_to( density_map )
+for name, row in df.iterrows(): # deixar meu dataframe interativo, row cada linha do dataset
+    folium.Marker( [row['lat'], row['long'] ],
+                   popup='Sold R$ on: {0}., {1} bedrooms'.format( row['price'],
+                                                                 row['bedrooms'],
+                                                                                     )
+                   ).add_to( maker_cluster )
+
+
+with c1:
+    folium_static( density_map )
 
 
