@@ -167,3 +167,9 @@ st.plotly_chart( fig,use_container_width=True )
 
 # Avarage Price per Day
 
+data['date'] = pd.to_datetime( data['date'] ).dt.strftime( '%Y-%m-%d' )
+df =  data[['date','price']].groupby('date').mean().reset_index()
+
+fig = px.line( df,x='date',y='price' )
+
+st.plotly_chart( fig,use_container_width=True )
