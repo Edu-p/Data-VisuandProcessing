@@ -240,9 +240,9 @@ st.title( 'House Attributes' )
 
 #filters
 f_bedrooms = st.sidebar.selectbox( 'Max number of bedrooms',
-                      data['bedrooms'].unique())
-f_bathrooms = st.sidebar.selectbox( 'Max number of bedrooms',
-                      data['bathrooms'].unique())
+                      sorted( set( data['bedrooms'].unique() ) ) )
+f_bathrooms = st.sidebar.selectbox( 'Max number of bathrooms',
+                      sorted( set( data['bathrooms'].unique() ) ) )
 
 c1,c2 = st.beta_columns( 2 )
 
@@ -258,13 +258,30 @@ df = data[ data['bathrooms'] < f_bathrooms ]
 fig = px.histogram( df,x='bathrooms',nbins= 15 )
 c2.plotly_chart( fig, use_container_width=True )
 
+#Filters
+f_floors = st.sidebar.selectbox( 'Max number of floors',
+                      sorted( set( data['floors'].unique() ) ) )
+
+f_waterview = st.sidebar.checkbox( 'Only Houses with Water View' )
+
+c1, c2 = st.beta_columns( 2 )
+
 #House per floors
-fig = px.histogram( data,x='floors',nbins= 15 )
-st.plotly_chart( fig, use_container_width=True )
+c1.header( 'Houses per floor' )
+df = data[ data['floors']< f_floors ]
+# plot
+fig = px.histogram( df,x='floors',nbins= 15 )
+c1.plotly_chart( fig, use_container_width=True )
 
 #House per waterview
-fig = px.histogram( data,x='waterfront',nbins= 15 )
-st.plotly_chart( fig, use_container_width=True )
+c2.header( 'Houses with water view' )
+if f_waterview:
+    df = data[ data['waterfront'] == 1 ]
+else:
+    df = data.copy()
+
+fig = px.histogram( df,x='waterfront',nbins= 10 )
+c2.plotly_chart( fig, use_container_width=True )
 
 
 
