@@ -232,10 +232,39 @@ fig = px.histogram( df3, x='price', nbins=50 ) # quantas barras eu qeuro no meu 
 st.plotly_chart( fig, use_container_width=True )
 
 #==================
-# real state distribution by physic categories
+# Real state distribution by physic categories
 #==================
 
+st.sidebar.title( 'Attributes Options' )
+st.title( 'House Attributes' )
 
+#filters
+f_bedrooms = st.sidebar.selectbox( 'Max number of bedrooms',
+                      data['bedrooms'].unique())
+f_bathrooms = st.sidebar.selectbox( 'Max number of bedrooms',
+                      data['bathrooms'].unique())
+
+c1,c2 = st.beta_columns( 2 )
+
+#House per bedrooms
+c1.header( 'houses per bedrooms' )
+df = data[ data['bedrooms'] < f_bedrooms ]
+fig = px.histogram( df,x='bedrooms',nbins= 15 )
+c1.plotly_chart( fig, use_container_width=True )
+
+#House per bathrooms
+c2.header( 'houses per bathrooms' )
+df = data[ data['bathrooms'] < f_bathrooms ]
+fig = px.histogram( df,x='bathrooms',nbins= 15 )
+c2.plotly_chart( fig, use_container_width=True )
+
+#House per floors
+fig = px.histogram( data,x='floors',nbins= 15 )
+st.plotly_chart( fig, use_container_width=True )
+
+#House per waterview
+fig = px.histogram( data,x='waterfront',nbins= 15 )
+st.plotly_chart( fig, use_container_width=True )
 
 
 
