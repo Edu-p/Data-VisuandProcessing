@@ -158,6 +158,17 @@ with c1:
 st.sidebar.title( 'Commercial Options' )
 st.title( 'Commercial atributes' )
 
+# Filters
+min_year_built = data['yr_built'].min()
+max_year_built = data['yr_built'].max()
+
+st.sidebar.subheader( 'Select Max Year Built' )
+f_year_built = st.sidebar.slider( 'Year Built', min_year_built,
+                                 max_year_built,
+                                 min_year_built)
+
+st.write(  )
+
 # Avarage Price per year
 df =  data[['yr_built','price']].groupby('yr_built').mean().reset_index()
 
