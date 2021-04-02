@@ -2,16 +2,23 @@ import pandas    as pd
 import streamlit as st
 import numpy     as np
 import folium
+import geopandas
+
 
 from streamlit_folium import folium_static
 from folium.plugins import MarkerCluster
 
 st.set_page_config( layout='wide' ) # para que nossos elementos tenham a maxima largura possivel
-@st.cache( allow_output_mutation=True ) #o '@' a gente chama de decorador e esse st.cache serve para nos lermos o arquivo direto da memoria e nao do disco,, no caso o dataset abaixo, o allow_.... é para que esse dataset possa mudar ao longo do codigo, isso agiliza a manipulaçao desse dataset
+@st.cache( allow_output_mutation=True ) #o '@' a gente chama de decorador e esse st.cache serve para nos lermos o arquivo direto da memoria e nao do disco, no caso o dataset abaixo, o allow_.... é para que esse dataset possa mudar ao longo do codigo, isso agiliza a manipulaçao desse dataset
 
 def get_data( path ):
     data = pd.read_csv( path )
     return data
+
+@st.cache( allow_output_mutation=True )
+def get_geofile( url ):
+    geofile = geopandas.read_file( url ) # lib que a glr do pandas desenvolveu pra trabalhar com localizaçao
+    return geofile
 
 # get data
 path = '../datasets/kc_house_data.csv'
@@ -19,6 +26,7 @@ data = get_data( path )
 
 #get geofile
 url = 'https://opendata.arcgis.com/datasets/83fc2e72903343aabff6de8cb445b81c_2.geojson'
+geofile = get_geofile( url )
 
 # add new features
 data['price_m2'] = data['price'] / (data['sqft_lot']/10.764)
@@ -98,7 +106,7 @@ c1, c2 = st.beta_columns( (1, 1) )
 
 c1.header( 'Portfolio Density' )
 
-df = data.sample( 15 ) # pegar uma amostra
+df = data.sample( 10 ) # pegar uma amostra
 
 # Base Map - Folium( map lib )
 density_map = folium.Map( location=[data['lat'].mean(), data['long'].mean()] )
@@ -117,20 +125,35 @@ with c1:
 
 
 #===================
-# Region Price Map ( MarkerCluster its a good type of map to show density )
+# Region Price Map
 #===================
 c2.header( 'Price Density' )
 
 df = data[['price','zipcode']].groupby( 'zipcode' ).mean().reset_index()
 df.columns = ['ZIP','PRICE']
 
-df = df.sample(100)
+df = df.sample( 10 )
 
-region_price_map = folium.Map( location=[data['lat'].mean(), data['long'].mean()] )
+geofile = geofile[ geofile['ZIP'].isin( df['ZIP'].tolist() ) ]
 
-region_price_map.choropleth( data = df,
-                             geo_data = geofile, # jeito que o mapa vai ser mapeado, onde vao ficar as divisoes das regioes( por exemplo o mapa de cidade que é dividido pelas suas fronteiras ), esse arquivo geofile é justamente que vai dizer qual o lat e long dessas demarcaçoes para formar as regioes
-                             columns=['ZIP', 'PRICE'])
+region_price_map = folium.Map( location=[data['lat'].mean(), data['long'].mean()],
+                               default_zoom_start = 15 )
+
+region_price_map.choropleth( data = df, # medias das regioes
+                             geo_data = geofile, # jeito que o mapa vai ser mapeado, onde vao ficar as divisoes das regioes( por exemplo o mapa de cidade que é dividido pelas suas fronteiras ), esse arquivo geofile é justamente que vai dizer qual o lat e long dessas demarcaçoes para formar o cep( zipcode )
+                             columns=['ZIP', 'PRICE'],
+                             key_on = 'feature.properties.ZIP', # o que vai fazer meu geofile conectar com meu dataframe,  ou seja, vai conectar o datafrme ao geofile e conecta-los pela coluna zip
+                             fill_color = 'YlOrRd',
+                             fill_opacity = '0.7',
+                             line_opacity =  '0.2',
+                             legend_name = 'Avarage Price' )
+
+with c2:
+    folium_static( region_price_map )
+
+#===================
+# Distribuition
+#===================
 
 
 
