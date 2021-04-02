@@ -1,3 +1,4 @@
+
 import pandas    as pd
 import streamlit as st
 import numpy     as np
@@ -7,6 +8,8 @@ import plotly.express as px
 
 from streamlit_folium import folium_static
 from folium.plugins import MarkerCluster
+
+from datetime import datetime
 
 st.set_page_config( layout='wide' ) # para que nossos elementos tenham a maxima largura possivel
 @st.cache( allow_output_mutation=True ) #o '@' a gente chama de decorador e esse st.cache serve para nos lermos o arquivo direto da memoria e nao do disco, no caso o dataset abaixo, o allow_.... é para que esse dataset possa mudar ao longo do codigo, isso agiliza a manipulaçao desse dataset
@@ -155,32 +158,52 @@ with c1:
 # Distribution of properties in the commercial category
 #=======================================================
 
+# Avarage Price per year
+
 st.sidebar.title( 'Commercial Options' )
 st.title( 'Commercial atributes' )
 
+data['date'] = pd.to_datetime( data['date'] ).dt.strftime('%Y-%m-%d')
+
 # Filters
-min_year_built = data['yr_built'].min()
-max_year_built = data['yr_built'].max()
+min_year_built = int( data['yr_built'].min() )
+max_year_built = int(data['yr_built'].max() )
 
 st.sidebar.subheader( 'Select Max Year Built' )
 f_year_built = st.sidebar.slider( 'Year Built', min_year_built,
                                  max_year_built,
                                  min_year_built)
 
-st.write(  )
 
-# Avarage Price per year
-df =  data[['yr_built','price']].groupby('yr_built').mean().reset_index()
 
-fig = px.line( df,x='yr_built',y='price' )
+st.header( 'Avarage Price per Year Built' )
+
+df1 = data.loc[ data['yr_built'] < f_year_built ]
+
+df1 =  df1[['yr_built','price']].groupby('yr_built').mean().reset_index()
+
+fig = px.line( df1,x='yr_built',y='price' )
 
 st.plotly_chart( fig,use_container_width=True )
 
 # Avarage Price per Day
 
-data['date'] = pd.to_datetime( data['date'] ).dt.strftime( '%Y-%m-%d' )
-df =  data[['date','price']].groupby('date').mean().reset_index()
+st.header( 'Avarage Price per day' )
+st.sidebar.subheader( 'Select max Date' )
 
+# Filters
+min_date = datetime.strptime( data['date'].min(), '%Y-%m-%d' )
+max_date = datetime.strptime( data['date'].max(), '%Y-%m-%d' )
+
+f_date = st.sidebar.slider( 'Date', min_date, max_date, min_date )
+
+#data filtering
+# st.write( type(f_date) )
+data['date'] = pd.to_datetime( data['date'] )
+
+df = data.loc[data['date'] < f_date]
+df =  data[['date','price']].groupby('date').mean().reset_index()
+# plot
 fig = px.line( df,x='date',y='price' )
 
 st.plotly_chart( fig,use_container_width=True )
