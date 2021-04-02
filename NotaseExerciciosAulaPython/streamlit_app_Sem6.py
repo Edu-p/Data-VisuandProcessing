@@ -3,7 +3,7 @@ import streamlit as st
 import numpy     as np
 import folium
 import geopandas
-
+import plotly.express as px
 
 from streamlit_folium import folium_static
 from folium.plugins import MarkerCluster
@@ -127,34 +127,43 @@ with c1:
 #===================
 # Region Price Map
 #===================
-c2.header( 'Price Density' )
+# c2.header( 'Price Density' )
+#
+# df = data[['price','zipcode']].groupby( 'zipcode' ).mean().reset_index()
+# df.columns = ['ZIP','PRICE']
+#
+# df = df.sample( 10 )
+#
+# geofile = geofile[ geofile['ZIP'].isin( df['ZIP'].tolist() ) ]
+#
+# region_price_map = folium.Map( location=[data['lat'].mean(), data['long'].mean()],
+#                                default_zoom_start = 15 )
+#
+# region_price_map.choropleth( data = df, # medias das regioes
+#                              geo_data = geofile, # jeito que o mapa vai ser mapeado, onde vao ficar as divisoes das regioes( por exemplo o mapa de cidade que é dividido pelas suas fronteiras ), esse arquivo geofile é justamente que vai dizer qual o lat e long dessas demarcaçoes para formar o cep( zipcode )
+#                              columns=['ZIP', 'PRICE'],
+#                              key_on = 'feature.properties.ZIP', # o que vai fazer meu geofile conectar com meu dataframe,  ou seja, vai conectar o datafrme ao geofile e conecta-los pela coluna zip
+#                              fill_color = 'YlOrRd',
+#                              fill_opacity = '0.7',
+#                              line_opacity =  '0.2',
+#                              legend_name = 'Avarage Price' )
+#
+# with c2:
+#     folium_static( region_price_map )
 
-df = data[['price','zipcode']].groupby( 'zipcode' ).mean().reset_index()
-df.columns = ['ZIP','PRICE']
+#=======================================================
+# Distribution of properties in the commercial category
+#=======================================================
 
-df = df.sample( 10 )
+st.sidebar.title( 'Commercial Options' )
+st.title( 'Commercial atributes' )
 
-geofile = geofile[ geofile['ZIP'].isin( df['ZIP'].tolist() ) ]
+# Avarage Price per year
+df =  data[['yr_built','price']].groupby('yr_built').mean().reset_index()
 
-region_price_map = folium.Map( location=[data['lat'].mean(), data['long'].mean()],
-                               default_zoom_start = 15 )
+fig = px.line( df,x='yr_built',y='price' )
 
-region_price_map.choropleth( data = df, # medias das regioes
-                             geo_data = geofile, # jeito que o mapa vai ser mapeado, onde vao ficar as divisoes das regioes( por exemplo o mapa de cidade que é dividido pelas suas fronteiras ), esse arquivo geofile é justamente que vai dizer qual o lat e long dessas demarcaçoes para formar o cep( zipcode )
-                             columns=['ZIP', 'PRICE'],
-                             key_on = 'feature.properties.ZIP', # o que vai fazer meu geofile conectar com meu dataframe,  ou seja, vai conectar o datafrme ao geofile e conecta-los pela coluna zip
-                             fill_color = 'YlOrRd',
-                             fill_opacity = '0.7',
-                             line_opacity =  '0.2',
-                             legend_name = 'Avarage Price' )
+st.plotly_chart( fig,use_container_width=True )
 
-with c2:
-    folium_static( region_price_map )
-
-#===================
-# Distribuition
-#===================
-
-
-
+# Avarage Price per Day
 
