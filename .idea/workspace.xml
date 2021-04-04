@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a845eca-8bdb-49fd-973e-2a1455fa189c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NotaseExerciciosAulaPython/streamlit_app_Sem6.py" beforeDir="false" afterPath="$PROJECT_DIR$/NotaseExerciciosAulaPython/streamlit_app_Sem6.py" afterDir="false" />
     </list>
@@ -50,7 +51,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/anaconda3/Scripts/conda.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../House_Rocket_Up" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -215,7 +219,9 @@
       <workItem from="1617194969228" duration="1326000" />
       <workItem from="1617198128733" duration="2764000" />
       <workItem from="1617296376157" duration="686000" />
-      <workItem from="1617345637492" duration="11058000" />
+      <workItem from="1617345637492" duration="12091000" />
+      <workItem from="1617378488318" duration="1667000" />
+      <workItem from="1617440601940" duration="416000" />
     </task>
     <servers />
   </component>
