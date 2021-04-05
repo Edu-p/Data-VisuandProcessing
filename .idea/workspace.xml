@@ -20,9 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a845eca-8bdb-49fd-973e-2a1455fa189c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotaseExerciciosAulaPython/streamlit_app_Sem6.py" beforeDir="false" afterPath="$PROJECT_DIR$/NotaseExerciciosAulaPython/streamlit_app_Sem6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExerciciosPython/Ex_sem2_atv.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/Ex_sem2_atv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotasNotionMarkdown/gab_ex1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Aula1/gab_ex1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotaseExerciciosAulaPython/Dashboard_Web.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula7/Dashboard_Web.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotaseExerciciosAulaPython/Exercicio_Sem1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula1/Exercicio_Sem1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotaseExerciciosAulaPython/Exercicio_sem2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/Exercicio_sem2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotaseExerciciosAulaPython/Sem1_Notas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula1/Sem1_Notas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotaseExerciciosAulaPython/house_rocket_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula7/house_rocket_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotaseExerciciosAulaPython/notas_aula2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/notas_aula2.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotaseExerciciosAulaPython/notas_aula2.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula2/notas_aula2.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotaseExerciciosAulaPython/streamlit_app_Sem6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula6/streamlit_app_Sem6e7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotebooksAnotacoes/Anotacoes_aula_5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Aula5/Anotacoes_aula_5.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotebooksAnotacoes/Anotaçao_aula_3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Aula3/Anotaçao_aula_3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotebooksAnotacoes/Anotaçao_aula_4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Aula4/Anotaçao_aula_4.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotebooksExercicios/Exercicios_aula3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Aula3/Exercicios_aula3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotebooksExercicios/Exercicios_aula4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Aula4/Exercicios_aula4.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/homePage.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../House_Rocket_Up" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -67,7 +80,7 @@
       <recent name="C:\Users\PICHAU\Desktop\AnaliseDeDados\DataAnalysis\venv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.streamlit_app_Sem6">
+  <component name="RunManager" selected="Python.streamlit_app_Sem6e7">
     <configuration name="Ex_sem2_atv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="streamlit_app_Sem6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="streamlit_app_Sem6e7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,7 +182,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NotaseExerciciosAulaPython/streamlit_app_Sem6.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\PICHAU\Desktop\AnaliseDeDados\DataAnalysis\Aula6\streamlit_app_Sem6e7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,7 +193,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.streamlit_app_Sem6" />
+        <item itemvalue="Python.streamlit_app_Sem6e7" />
         <item itemvalue="Python.Exercicio_sem2 (1)" />
         <item itemvalue="Python.Ex_sem2_atv" />
         <item itemvalue="Python.Exercicio_sem2" />
@@ -222,6 +235,7 @@
       <workItem from="1617345637492" duration="12091000" />
       <workItem from="1617378488318" duration="1667000" />
       <workItem from="1617440601940" duration="416000" />
+      <workItem from="1617630618338" duration="504000" />
     </task>
     <servers />
   </component>
