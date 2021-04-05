@@ -8,6 +8,7 @@
 # 💎 Objeto de estudo
 
 O CEO da empresa fictícia House Rocket, plataforma de compra e venda de imóveis, deseja encontrar bons negócios afim de maximizar o lucro da empresa. São realizadas reuniões toda semana onde o ele levanta questões que devem ser respondidas pelo time de dados.
+
 ![Hnet-image](https://user-images.githubusercontent.com/72039442/113596133-3fdca500-9610-11eb-8edd-2d1f7cf87245.gif)
 
 
