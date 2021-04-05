@@ -33,7 +33,7 @@ O CEO da empresa fictícia House Rocket, plataforma de compra e venda de imóvei
       - Como deixar o codigo mais modular, padrao de codigo ETL
     - Aula 6:
       - Tipos de visualizaçao de dados, quais sao as melhores opçoes para cada cenario
-      ![newplot (7)](https://user-images.githubusercontent.com/72039442/113594484-276b8b00-960e-11eb-89ab-23721c3d8686.png)
+      ![Hnet-image (1)](https://user-images.githubusercontent.com/72039442/113602093-8fbf6a00-9618-11eb-8b30-4829ac5eecf1.gif)
     - Aula 7:
       - Dando deploy em um projeto usando streamlit
       ![Hnet com-image (3)](https://user-images.githubusercontent.com/72039442/113594160-b035f700-960d-11eb-8b77-39e0c3e82a9c.gif)
