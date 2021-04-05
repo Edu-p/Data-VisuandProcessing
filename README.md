@@ -17,6 +17,7 @@ O CEO da empresa fictícia House Rocket, plataforma de compra e venda de imóvei
 # 📔O Conteúdo
 
 - Todo o conteudo foi retirado das aulas disponibilizadas de forma gratuita pelo Meigarom Lopes em seu canal do [Youtube](https://www.youtube.com/channel/UCar5Cr-pVz08GY_6I3RX9bA)
+- Exemplo de Dashboard => [Dashboard](https://house-rocket-dashanalysis.herokuapp.com)
 - Como esta distribuido:
   - Resumo de cada uma delas:
     - Aula 1:
@@ -40,6 +41,7 @@ O CEO da empresa fictícia House Rocket, plataforma de compra e venda de imóvei
     - Aula 8:
       - O que é e como transformar nosso projeto em Projeto de portifolio
       - O novo problema de negocio
+      - 
 
 ---
 
