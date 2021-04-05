@@ -41,7 +41,6 @@ O CEO da empresa fictícia House Rocket, plataforma de compra e venda de imóvei
     - Aula 8:
       - O que é e como transformar nosso projeto em Projeto de portifolio
       - O novo problema de negocio
-      - 
 
 ---
 
