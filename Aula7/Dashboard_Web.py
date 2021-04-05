@@ -102,7 +102,7 @@ def portifolio_density( data ):
 
     c1.header('Portfolio Density')
 
-    df = data.sample(10)  # pegar uma amostra
+    df = data.sample(100)  # pegar uma amostra
 
     # Base Map - Folium( map lib )
     density_map = folium.Map(location=[data['lat'].mean(), data['long'].mean()])
