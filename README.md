@@ -8,8 +8,7 @@
 # 💎 Objeto de estudo
 
 O CEO da empresa fictícia House Rocket, plataforma de compra e venda de imóveis, deseja encontrar bons negócios afim de maximizar o lucro da empresa. São realizadas reuniões toda semana onde o ele levanta questões que devem ser respondidas pelo time de dados.
-
-![homePage](https://user-images.githubusercontent.com/72039442/111329137-a728ba00-864d-11eb-872d-c89302d75cef.png)
+![Hnet-image](https://user-images.githubusercontent.com/72039442/113596133-3fdca500-9610-11eb-8edd-2d1f7cf87245.gif)
 
 
 ---
@@ -23,16 +22,20 @@ O CEO da empresa fictícia House Rocket, plataforma de compra e venda de imóvei
       - O que é um comando, interpretador, baixando IDE
     - Aula 2:
       - Como selecionar linhas e filtrar colunas
+      ![newplot (10)](https://user-images.githubusercontent.com/72039442/113594478-24709a80-960e-11eb-911c-f31dc3c6babf.png)
     - Aula 3:
       - Criar colunas novas, fazer combinaçao de colunas para gerar outra
     - Aula 4:
       - Como funciona e usa estrutura de controles
+      ![newplot (9)](https://user-images.githubusercontent.com/72039442/113594475-23d80400-960e-11eb-89cf-55bf22be7804.png)
     - Aula 5:
       - Como deixar o codigo mais modular, padrao de codigo ETL
     - Aula 6:
       - Tipos de visualizaçao de dados, quais sao as melhores opçoes para cada cenario
+      ![newplot (7)](https://user-images.githubusercontent.com/72039442/113594484-276b8b00-960e-11eb-89ab-23721c3d8686.png)
     - Aula 7:
       - Dando deploy em um projeto usando streamlit
+      ![Hnet com-image (3)](https://user-images.githubusercontent.com/72039442/113594160-b035f700-960d-11eb-8b77-39e0c3e82a9c.gif)
     - Aula 8:
       - O que é e como transformar nosso projeto em Projeto de portifolio
       - O novo problema de negocio
