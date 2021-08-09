@@ -1,5 +1,3 @@
-# data-visuandprocessing
-
 # :mag: O Proposito 
 ## **Este é um Repositorio de estudo com fins de desenvolver a Capacidade de analisar dados para gerar conclusoes concretas e assertivas dentro de um meio empresarial.**
 
