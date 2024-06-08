@@ -14,6 +14,7 @@ print(dataF.shape[1])
 
 print(dataF.columns)
 
+
 #4. Qual a casa mais cara ( casa com o maior valor de venda )?
 
 print(dataF[['id', 'price']].sort_values('price', ascending=False))
